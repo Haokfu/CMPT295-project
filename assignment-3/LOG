@@ -1,0 +1,30 @@
+Name:GitHub 
+Hash:12d5821c06c488b6c71db726223be8b7dc51d478
+Timestamp=2022-10-27 05:00:12 +0000 
+## ********************FAILED********************
+### *****diff ./out/test_sdot.out ./ref/test_sdot.out*****
+ ```1c1
+< 268435456
+---
+> 201
+
+```
+
+****************************************
+## ********************SUCCESS********************
+### *****timeout 120 java -jar venus.jar ./test_files/test_sdot.s > ./out/test_sdot.out*****
+ ```
+```
+Name:GitHub 
+Hash:12d5821c06c488b6c71db726223be8b7dc51d478
+Timestamp=2022-10-27 05:00:12 +0000 
+## ********************FAILED********************
+
+****************************************
+## ********************SUCCESS********************
+### *****timeout 120 java -jar venus.jar ./test_files/test_sdot.s > ./out/test_sdot.out*****
+ ```
+```
+### *****diff ./out/test_sdot.out ./ref/test_sdot.out*****
+ ```
+```
